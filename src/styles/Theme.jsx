@@ -24,6 +24,7 @@ export const theme = {
     indigo: "#4263Eb",
     purple: "#7E5CEF",
     pink: "#FE5895",
+    text:"#fff",
     container: "#2d2d2d",
 
     gray100: "#FAFAFA",
@@ -54,6 +55,14 @@ export const theme = {
     "3xl": rem(32),
     "4xl": rem(40),
     "5xl": rem(64),
+  },
+  breakpoints: {
+    xs:'0',
+    sm:'576px',
+    md:'768px',
+    lg:'992px',
+    xl:'1200px',
+    xxl:'1400px',
   },
 };
 
