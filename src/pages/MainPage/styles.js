@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   display:flex;
@@ -44,7 +45,7 @@ export const Input = styled.input`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
   display: flex;
   align-items:center;
   justify-content:center;
@@ -52,10 +53,11 @@ export const Button = styled.button`
   background: transparent;
   width: 80px;
   height: 64px;
-  border: 3px solid color:${(props) => props.theme.colors.text};
+  border: 1px solid white;
+  color: white;
   transition: background 0.3s;
 
   &:hover{
-    background: color:${(props) => props.theme.colors.container};
+    background: color:${(props) => props.theme.colors.pink};
   }
 `;
