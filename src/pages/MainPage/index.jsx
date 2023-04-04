@@ -1,4 +1,6 @@
 import React from "react";
+import { MdSearch } from "react-icons/md";
+
 
 import { Container, Logo, Title, Form, Input, Button } from "./styles";
 
@@ -12,7 +14,7 @@ export default function MainPage() {
       <Form>
         <Input placeholder="usuário" />
         <Button>
-
+          <MdSearch size={42} />
         </Button>
       </Form>
 
